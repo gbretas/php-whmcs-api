@@ -1,5 +1,5 @@
 {
-    "name": "darthsoup/php-whmcs-api",
+    "name": "gbretas/php-whmcs-api",
     "description": "WHMCS API client for PHP",
     "keywords": ["whmcs", "api"],
     "type": "library",
@@ -8,6 +8,10 @@
         {
             "name": "Kevin Krummnacker",
             "email": "kevin.krummnacker@gmail.com"
+        },
+        {
+            "name": "Gustavo Bretas",
+            "email": "gustavobretas5@gmail.com"
         }
     ],
     "require": {
