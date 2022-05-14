@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi\Exception;
+namespace gbretas\WhmcsApi\Exception;
 
 use RuntimeException;
 

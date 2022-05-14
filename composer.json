@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DarthSoup\\WhmcsApi\\": "src/"
+            "gbretas\\WhmcsApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DarthSoup\\Tests\\WhmcsApi\\": "tests/"
+            "gbretas\\Tests\\WhmcsApi\\": "tests/"
         }
     }
 }

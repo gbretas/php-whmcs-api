@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi\Api;
+namespace gbretas\WhmcsApi\Api;
 
 class Authentication extends AbstractApi
 {

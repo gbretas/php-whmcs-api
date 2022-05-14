@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi\HttpClient\Plugin;
+namespace gbretas\WhmcsApi\HttpClient\Plugin;
 
-use DarthSoup\WhmcsApi\Exception\AuthenticationException;
-use DarthSoup\WhmcsApi\Exception\IpBlockedException;
-use DarthSoup\WhmcsApi\HttpClient\Formatter\ResponseFormatter;
+use gbretas\WhmcsApi\Exception\AuthenticationException;
+use gbretas\WhmcsApi\Exception\IpBlockedException;
+use gbretas\WhmcsApi\HttpClient\Formatter\ResponseFormatter;
 use Http\Client\Common\Plugin;
 use Http\Promise\Promise;
 use Psr\Http\Message\RequestInterface;

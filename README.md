@@ -1,3 +1,3 @@
 # php-whmcs-api
 
-Based in https://github.com/darthsoup/laravel-whmcs
+Based in https://github.com/gbretas/laravel-whmcs

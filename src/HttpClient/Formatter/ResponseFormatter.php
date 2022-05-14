@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi\HttpClient\Formatter;
+namespace gbretas\WhmcsApi\HttpClient\Formatter;
 
 use JsonException;
 use Psr\Http\Message\ResponseInterface;

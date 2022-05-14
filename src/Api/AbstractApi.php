@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi\Api;
+namespace gbretas\WhmcsApi\Api;
 
-use DarthSoup\WhmcsApi\Client;
-use DarthSoup\WhmcsApi\HttpClient\Formatter\ResponseFormatter;
+use gbretas\WhmcsApi\Client;
+use gbretas\WhmcsApi\HttpClient\Formatter\ResponseFormatter;
 use GuzzleHttp\Psr7\AppendStream;
 use GuzzleHttp\Psr7\Utils;
 use Symfony\Component\OptionsResolver\OptionsResolver;

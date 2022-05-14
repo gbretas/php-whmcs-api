@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi\HttpClient\Plugin;
+namespace gbretas\WhmcsApi\HttpClient\Plugin;
 
-use DarthSoup\WhmcsApi\Client;
+use gbretas\WhmcsApi\Client;
 use GuzzleHttp\Psr7\AppendStream;
 use GuzzleHttp\Psr7\Utils;
 use Http\Client\Common\Plugin;

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi;
+namespace gbretas\WhmcsApi;
 
-use DarthSoup\WhmcsApi\HttpClient\Builder;
-use DarthSoup\WhmcsApi\HttpClient\Plugin\AccessKey;
-use DarthSoup\WhmcsApi\HttpClient\Plugin\Authentication;
-use DarthSoup\WhmcsApi\HttpClient\Plugin\ContentType;
-use DarthSoup\WhmcsApi\HttpClient\Plugin\ExceptionHandler;
-use DarthSoup\WhmcsApi\HttpClient\Plugin\WhmcsContentType;
+use gbretas\WhmcsApi\HttpClient\Builder;
+use gbretas\WhmcsApi\HttpClient\Plugin\AccessKey;
+use gbretas\WhmcsApi\HttpClient\Plugin\Authentication;
+use gbretas\WhmcsApi\HttpClient\Plugin\ContentType;
+use gbretas\WhmcsApi\HttpClient\Plugin\ExceptionHandler;
+use gbretas\WhmcsApi\HttpClient\Plugin\WhmcsContentType;
 use Http\Client\Common\HttpMethodsClientInterface;
 use Http\Client\Common\Plugin\BaseUriPlugin;
 use Http\Client\Common\Plugin\HeaderDefaultsPlugin;

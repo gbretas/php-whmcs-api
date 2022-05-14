@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\WhmcsApi;
+namespace gbretas\WhmcsApi;
 
-use DarthSoup\WhmcsApi\Api\Addons;
-use DarthSoup\WhmcsApi\Api\Affiliates;
-use DarthSoup\WhmcsApi\Api\Authentication;
-use DarthSoup\WhmcsApi\Api\Billing;
-use DarthSoup\WhmcsApi\Api\Client;
-use DarthSoup\WhmcsApi\Api\Custom;
-use DarthSoup\WhmcsApi\Api\Domains;
-use DarthSoup\WhmcsApi\Api\Orders;
-use DarthSoup\WhmcsApi\Api\Products;
-use DarthSoup\WhmcsApi\Api\Servers;
-use DarthSoup\WhmcsApi\Api\Service;
-use DarthSoup\WhmcsApi\Api\System;
-use DarthSoup\WhmcsApi\Api\Users;
+use gbretas\WhmcsApi\Api\Addons;
+use gbretas\WhmcsApi\Api\Affiliates;
+use gbretas\WhmcsApi\Api\Authentication;
+use gbretas\WhmcsApi\Api\Billing;
+use gbretas\WhmcsApi\Api\Client;
+use gbretas\WhmcsApi\Api\Custom;
+use gbretas\WhmcsApi\Api\Domains;
+use gbretas\WhmcsApi\Api\Orders;
+use gbretas\WhmcsApi\Api\Products;
+use gbretas\WhmcsApi\Api\Servers;
+use gbretas\WhmcsApi\Api\Service;
+use gbretas\WhmcsApi\Api\System;
+use gbretas\WhmcsApi\Api\Users;
 
 trait ApiClassTrait
 {
