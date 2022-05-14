@@ -308,10 +308,10 @@ class Billing extends AbstractApi
             'newitemtaxed', 'deletelineids', 'publish', 'publishandsendemail',
         ]);
         $resolver->setAllowedTypes('invoiceid', 'int');
-        $resolver->setAllowedTypes('itemdescription', 'string[]');
+        $resolver->setAllowedTypes('itemdescription', 'string');
         $resolver->setAllowedTypes('itemamount', 'float[]');
         $resolver->setAllowedTypes('itemtaxed', 'bool[]');
-        $resolver->setAllowedTypes('newitemdescription', 'string[]');
+        $resolver->setAllowedTypes('newitemdescription', 'string');
         $resolver->setAllowedTypes('newitemamount', 'float[]');
         $resolver->setAllowedTypes('newitemtaxed', 'bool[]');
         $resolver->setAllowedTypes('deletelineids', 'int[]');

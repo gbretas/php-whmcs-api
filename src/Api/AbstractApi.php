@@ -92,14 +92,15 @@ abstract class AbstractApi
         $resolver->setDefined('gid')
             ->setAllowedTypes('gid', 'integer');
 
+
         $resolver->setDefined('email')
-            ->setAllowedTypes('email', 'string')
-            ->setAllowedValues('email', fn($value): bool => filter_var($value, FILTER_VALIDATE_EMAIL));
+            ->setAllowedTypes('email', 'string');
+
         $resolver->setDefined('password2')
             ->setAllowedTypes('password2', 'string');
 
         $resolver->setDefined('customfields')
-            ->setAllowedTypes('customfields', 'string[]');
+            ->setAllowedTypes('customfields', 'string');
 
         $resolver->setDefined('ip')
             ->setAllowedTypes('ip', 'string')

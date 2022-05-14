@@ -18,6 +18,7 @@ class Client extends AbstractApi
             'currency', 'groupid', 'customfields', 'language', 'clientip', 'notes', 'marketingoptin',
             'noemail', 'skipvalidation',
         ]);
+        
         $resolver->setRequired(['firstname', 'lastname', 'email', 'address1', 'postcode', 'country']);
 
         return $this->send('AddClient', $resolver->resolve($parameters));
