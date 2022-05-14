@@ -2,6 +2,8 @@
 
 Based in https://github.com/gbretas/laravel-whmcs
 
+https://packagist.org/packages/gbretas/php-whmcs-api
+
 ## Installation
 
 ### Composer
